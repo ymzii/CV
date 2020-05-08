@@ -1,0 +1,100 @@
+{
+  "id": "1708394",
+  "name": "简历",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "348504",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "ead8",
+      "unicode_decimal": 60120
+    },
+    {
+      "icon_id": "595842",
+      "name": "评价",
+      "font_class": "pingjia",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "833511",
+      "name": "博客园",
+      "font_class": "bokeyuan",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "943205",
+      "name": "教育经历",
+      "font_class": "jiaoyujingli",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "970721",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1002286",
+      "name": "工作经历",
+      "font_class": "gongzuojingli",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1115082",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "1240740",
+      "name": "笔",
+      "font_class": "bi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "1330722",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "3819716",
+      "name": "专业知识技能",
+      "font_class": "zhuanyezhishijineng",
+      "unicode": "e7b6",
+      "unicode_decimal": 59318
+    },
+    {
+      "icon_id": "3893833",
+      "name": "项目经历",
+      "font_class": "xiangmujingli",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "5674847",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "6289726",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}

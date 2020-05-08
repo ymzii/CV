@@ -1,0 +1,202 @@
+body{
+    background: #e5e5e5 url(../images/background.png);
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+h2,i{
+    font-size: 20px;
+}
+hr{
+    border: 0.5px solid #cfcfcf;
+}
+a{
+    text-decoration: none;   
+}
+table{
+    width: 100%;
+    text-align: left;
+}
+ td{
+    width: 50%;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}  
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+/* 左侧 */
+
+#left{
+    position: relative;
+    left: 10%;
+    top: 40px;
+    width: 320px;
+    background-color: #fff;
+    padding: 15px;
+}
+/* 选择按钮 */
+#toggle-button{ 
+    display: none; 
+}
+.button-label{
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.on { 
+    color: #fff; 
+    display: none; 
+    text-indent: 10px;
+}
+.off { 
+    color: #fff; 
+    display: inline-block; 
+    text-indent: 53px;
+}
+.button-label .circle{
+    left: 0;
+    transition: all 0.3s;/*transition过度，时间为0.3秒*/
+}
+#toggle-button:checked + label.button-label .circle{
+    left: 40px;
+}
+#toggle-button:checked + label.button-label .on{ 
+    display: inline-block; 
+}
+#toggle-button:checked + label.button-label .off{ 
+    display: none; 
+}
+#toggle-button:checked + label.button-label{
+    background-color: #33FF66;
+}
+/* 头像 */
+.me{
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.me img{
+    width: 128px;
+    height: 128px;
+}
+/* 个人信息 */
+.message{
+    margin-top: 45px;
+}
+.message h2, .message i{
+    height: 25px;
+}
+
+/* 联系方式 */
+.tel{
+    width: 100%;
+    text-align: left;
+}
+.tel span{
+    font-size: 18px;
+}
+.tel td:first-child{
+    width: 125px;
+}
+.tel td:last-child{
+    color: darkturquoise;
+}
+.tel a{
+    color: #1abc9c;
+}
+.tel a:hover{
+    color: crimson;
+}
+/* 专业知识 */
+.skill{
+    margin-bottom: 50px;
+}
+.skill progress{
+    width: 100px;
+    height: 12px;     
+}
+progress{
+   color:#1abc9c; 
+   border:none;
+   background:#d7d7d7; 
+}
+progress::-webkit-progress-bar{
+   background:#d7d7d7;
+}
+
+#right{
+    margin-left: 70px;
+    width: 800px;
+    height: 1250px;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 30%;
+    padding: 15px;
+}
+.ability ul li{
+   margin-bottom: 7px;
+   font-size: 16px;
+}
+.exp{
+    margin-top: 30px;
+}
+.exp li{
+    margin-bottom: 10px;
+}
+.company span{
+    float: right;
+}
+.uls{
+    margin-top: 10px;
+    margin-left: -25px;
+}
+.uls li{
+    margin-bottom: 10px;
+}
+.project{
+    margin-top: 30px;
+}
+.project>ul>li{
+    margin-bottom: 25px;
+}
+
+.project strong{
+    margin-right: 15px;
+}
+.describe{
+    margin-top: 30px;
+}
+.describe p{
+    margin: 25px 25px 0;
+    text-indent: 32px;
+}
